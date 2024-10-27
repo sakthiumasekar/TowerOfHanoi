@@ -1,0 +1,58 @@
+html{
+    font-size:12px;
+}
+body{
+    background-color: gray;
+}
+
+
+.selectedRingBox{
+    display: flex;
+    gap: 26rem;
+    height: 50px;
+    padding: 20px 300px 0;
+    background-color: black;
+    color: white;
+}
+.container{
+    display: flex;
+    gap: 25rem;
+    padding:20px 300px 0;
+}
+
+hr{
+    margin:-1px;
+    height: 10px;
+    border: none;
+    background-color: black;
+}
+.pipe{
+    height:35rem;
+    width: 10px;
+    background-color:brown;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.ring{
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+[class="ring 1"]{
+    background-color: red;
+    margin: 0 -60px;
+    width:130px;
+}
+[class="ring 2"]{
+    background-color: blue;
+    margin: 0 -45px;
+    width: 100px;
+}
+[class="ring 3"]{
+    background-color: green;
+    margin: 0 -30px;
+    width:70px;
+}
